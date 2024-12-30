@@ -9,14 +9,15 @@
     <title>فروشگاه اینترنتی دیجیتایز</title>
 </head>
 
-<body>
+<body class="bg-gray-100">
+
     <!-- Desktop Navigation -->
-    <header class="hidden md:block w-full px-5 bg-slate-100">
-        <nav class="w-full container mx-auto xl:max-w-screen-xl flex justify-between items-center px-5">
+    <header class="hidden md:block w-full px-5 bg-white">
+        <nav class="container mx-auto xl:max-w-screen-xl flex justify-between items-center px-5">
 
             <!-- List Menu -->
-            <div class="w-full flex flex-1 m-4">
-                <ul class="w-full flex flex-1 m-4 justify-between items-center text-slate-800">
+            <div class=" flex m-4">
+                <ul class=" flex  m-4 justify-between items-center text-slate-800">
                     <li class="cursor-pointer">
                         <svg width="99" height="26" viewBox="0 0 99 26" fill="none" xmlns="http://www.w3.org/2000/svg">
                             <path
@@ -44,7 +45,7 @@
             <!--  -->
 
             <!-- Search box -->
-            <div class="hidden lg:flex w-full flex-1 justify-center items-center px-5 m-4 bg-slate-200 rounded-lg">
+            <div class="hidden lg:flex flex-1 justify-center items-center px-5 m-4 bg-gray-100 rounded-lg">
                 <i>
                     <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5"
                         stroke="currentColor" class="size-6 text-blue-900">
@@ -52,8 +53,40 @@
                             d="m21 21-5.197-5.197m0 0A7.5 7.5 0 1 0 5.196 5.196a7.5 7.5 0 0 0 10.607 10.607Z" />
                     </svg>
                 </i>
-                <input class="w-full bg-transparent border-none" type="text" name="search" id="search"
+                <input class="w-full bg-transparent border-none focus:ring-0" type="text" name="search" id="search"
                     placeholder="جستجوی محصول ...">
+            </div>
+            <!--  -->
+
+            <!-- Account and Buy List -->
+            <div class="flex">
+
+                <!-- Buy List Section -->
+                <i class="m-4 hover:text-blue-900 hover:cursor-pointer">
+                    <a href="" class="relative">
+                        <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5"
+                            stroke="currentColor" class="size-8">
+                            <path stroke-linecap="round" stroke-linejoin="round"
+                                d="M15.75 10.5V6a3.75 3.75 0 1 0-7.5 0v4.5m11.356-1.993 1.263 12c.07.665-.45 1.243-1.119 1.243H4.25a1.125 1.125 0 0 1-1.12-1.243l1.264-12A1.125 1.125 0 0 1 5.513 7.5h12.974c.576 0 1.059.435 1.119 1.007ZM8.625 10.5a.375.375 0 1 1-.75 0 .375.375 0 0 1 .75 0Zm7.5 0a.375.375 0 1 1-.75 0 .375.375 0 0 1 .75 0Z" />
+                        </svg>
+                        <span class="absolute left-6 -top-3 bg-orange-500 rounded-full text-center w-full h-fw-full font-bold text-lg text-black">3</span>
+
+                    </a>
+                </i>
+                <!--  -->
+
+                <!-- Account Section -->
+                <i class="m-4 hover:text-blue-900 hover:cursor-pointer">
+                    <a href="#">
+                        <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5"
+                            stroke="currentColor" class="size-8">
+                            <path stroke-linecap="round" stroke-linejoin="round"
+                                d="M17.982 18.725A7.488 7.488 0 0 0 12 15.75a7.488 7.488 0 0 0-5.982 2.975m11.963 0a9 9 0 1 0-11.963 0m11.963 0A8.966 8.966 0 0 1 12 21a8.966 8.966 0 0 1-5.982-2.275M15 9.75a3 3 0 1 1-6 0 3 3 0 0 1 6 0Z" />
+                        </svg>
+                    </a>
+                </i>
+                <!--  -->
+
             </div>
             <!--  -->
 
@@ -62,7 +95,7 @@
     <!--  -->
 
     <!-- Mobile Navigation -->
-    <div class="md:hidden w-full px-5 fixed bg-slate-100 bottom-0 left-0 right-0">
+    <div class="md:hidden w-full px-5 fixed bg-white bottom-0 left-0 right-0">
         <nav class="w-full flex justify-center items-center p-2">
             <ul class="w-full flex justify-between items-center gap-x-2">
                 <li class="text-xs text-gray-400">
@@ -121,7 +154,7 @@
     <div class="md:hidden flex justify-around items-center mt-4">
         <img src="/assets/images/logo.svg" alt="Digitize-Logo">
         <h1 class="font-bold text-lg text-slate-800">ساعت هوشمند</h1>
-        <div class="bg-slate-100 shadow-lg flex items-center justify-center rounded p-2">
+        <div class="bg-white shadow-lg flex items-center justify-center rounded p-2">
             <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5"
                 stroke="currentColor" class="size-6">
                 <path stroke-linecap="round" stroke-linejoin="round"
@@ -135,7 +168,7 @@
     <div class="md:hidden flex justify-between items-center p-2 mt-4">
 
         <!-- Sort -->
-        <div class="flex flex-1 justify-center items-center bg-slate-100 mx-4 rounded p-2">
+        <div class="flex flex-1 justify-center items-center bg-white mx-4 rounded p-2">
             <div>
                 <svg xmlns="http://www.w3.org/2000/svg" width="37" height="26" fill="none">
                     <path stroke="#FC5858" stroke-linecap="round" stroke-width="1.5" d="M16 7h18" />
@@ -154,7 +187,7 @@
         <!--  -->
 
         <!-- Filter -->
-        <div class="flex flex-1 justify-center items-center bg-slate-100 mx-4 rounded p-2">
+        <div class="flex flex-1 justify-center items-center bg-white mx-4 rounded p-2">
             <div>
                 <svg xmlns="http://www.w3.org/2000/svg" width="19" height="22" fill="none">
                     <path stroke="#AFAFAF" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="10"
@@ -180,7 +213,7 @@
 
             <!-- Desktop Sidebar -->
             <div class="hidden md:block col-span-4 lg:col-span-3 xl:col-span-2 row-span-2">
-                <div class="bg-slate-100 p-5 rounded-xl max-h-[calc(100vh_-_150px)] overflow-y-auto sticky top-28">
+                <div class="bg-white p-5 rounded-xl max-h-[calc(100vh_-_150px)] overflow-y-auto sticky top-28">
 
                     <!-- Category -->
                     <div class="mb-7">
@@ -415,15 +448,13 @@
             <!--  -->
 
             <!-- Sort Items -->
-            <div class="bg-slate-100 hidden md:block col-span-8 lg:col-span-9 xl:col-span-10">
+            <div class="bg-white hidden md:block col-span-8 lg:col-span-9 xl:col-span-10">
+                ss
             </div>
             <!--  -->
 
             <!-- Product List -->
-            <div class="bg-slate-100 col-span-12 md:col-span-8 lg:col-span-9 xl:col-span-10">
-
-                <!-- BreadCrumb -->
-                <!--  -->
+            <div class="bg-white col-span-12 md:col-span-8 lg:col-span-9 xl:col-span-10">
 
                 <!-- product List -->
                 <!--  -->
@@ -436,7 +467,7 @@
     <!--  -->
 
     <!-- Desktop footer  -->
-    <footer class="hidden md:block w-full px-5 bg-slate-100"></footer>
+    <footer class="hidden md:block w-full px-5 bg-white"></footer>
     <!--  -->
 </body>
 
