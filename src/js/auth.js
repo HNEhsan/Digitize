@@ -11,6 +11,6 @@ window.onload = () => {
     })
     btn_verify.addEventListener("click", (e) => {
         e.preventDefault()
-        window.location = "/public/dashboard.html"
+        window.location = "/public/productList.html"
     })
 }
