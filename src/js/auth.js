@@ -9,8 +9,9 @@ window.onload = () => {
         register.classList.add("hidden")
         verify.classList.remove("hidden")
     })
+
     btn_verify.addEventListener("click", (e) => {
         e.preventDefault()
-        window.location = "/public/productList.html"
+        window.location = "productList.html"
     })
 }
