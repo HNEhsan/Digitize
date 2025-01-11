@@ -151,6 +151,28 @@
     <!--  -->
 
     <!-- Mobile Add To Cart Section -->
+    <div class="block md:hidden w-full ">
+        <div class="flex fixed bottom-0 p-4 bg-white w-full justify-between items-center z-50 rounded-md">
+
+            <!-- Add To Cart -->
+            <div>
+                <button class="bg-orange-500 text-white rounded-md px-4 py-2">
+                    افزودن به سبد خرید
+                </button>
+            </div>
+            <!--  -->
+
+            <!-- Price -->
+            <div>
+                <p>
+                    <span class="text-blue-900 font-bold">۲۸,۲۵۰,۰۰۰</span>
+                    <span class="text-blue-900">تومان</span>
+                </p>
+            </div>
+            <!--  -->
+
+        </div>
+    </div>
     <!--  -->
 
     <!-- Content -->
@@ -250,7 +272,7 @@
             </div>
             <!--  -->
 
-            <!-- Breadcrumb -->
+            <!-- Desktop Breadcrumb -->
             <div class="bg-white hidden md:block col-span-8 lg:col-span-9 xl:col-span-10">
                 <div class="flex items-center p-2 gap-4">
                     <button class="py-2">
@@ -285,11 +307,11 @@
             <!--  -->
 
             <!-- Product Specification -->
-            <section class="bg-white col-span-12 md:col-span-8 lg:col-span-9 xl:col-span-10">
-                <div class="flex flex-col justify-center items-center">
+            <section class="bg-transparent md:bg-white col-span-12 md:col-span-8 lg:col-span-9 xl:col-span-10">
+                <div class="flex flex-col justify-center">
 
-                    <!-- Summary Section -->
-                    <div class="w-full flex xl:flex-row xl:items-start md:flex-col p-4 gap-4 md:items-center">
+                    <!-- Product Infomation Section -->
+                    <div class="w-full flex xl:flex-row xl:items-start md:flex-col p-4 gap-4">
 
                         <!-- Product Information -->
                         <div class="w-full flex lg:flex-row flex-col mx-2 md:gap-x-4 sm:gap-y-4">
@@ -302,30 +324,30 @@
                                     <img class="w-full h-auto" src="../assets/images/Single Product/image1.png"
                                         alt="Thumnail Image">
 
-
                                     <!-- Slider -->
                                     <div class="hidden md:flex justify-between items-center gap-x-4 mt-4">
-                                        <div class="border border-gray-500 rounded hover:cursor-pointer">
+                                        <div class="w-full border border-gray-500 rounded hover:cursor-pointer p-0.5">
                                             <img class="w-full h-auto" src="../assets/images/Single Product/image2.png"
                                                 alt="Thumnail Image">
                                         </div>
-                                        <div class="border border-gray-500 rounded hover:cursor-pointer">
-                                            <img class="w-full h-auto" src="../assets/images/Single Product/image2.png"
+                                        <div class="w-full border border-gray-500 rounded hover:cursor-pointer p-0.5">
+                                            <img class="w-full h-auto" src="../assets/images/Single Product/image3.png"
                                                 alt="Thumnail Image">
                                         </div>
-                                        <div class="border border-gray-500 rounded hover:cursor-pointer">
-                                            <img class="w-full h-auto" src="../assets/images/Single Product/image2.png"
+                                        <div class="w-full border border-gray-500 rounded hover:cursor-pointer p-0.5">
+                                            <img class="w-full h-auto" src="../assets/images/Single Product/image4.png"
                                                 alt="Thumnail Image">
                                         </div>
                                     </div>
                                     <!--  -->
+
                                 </div>
                             </div>
                             <!--  -->
 
                             <!-- Infomation -->
                             <div class="flex flex-col justify-start items-start">
-                                
+
                                 <!-- badge -->
                                 <div class="hidden md:flex justify-center items-center">
                                     <i>
@@ -337,8 +359,159 @@
                                                 stroke-width="1.125"
                                                 d="M7 21.825A1.163 1.163 0 1 0 7 19.5a1.163 1.163 0 0 0 0 2.325Z" />
                                             <circle cx="10.5" cy="9.5" r="9.5" fill="#FFCBCB" fill-opacity=".28" />
-                                        </svg></i>
+                                        </svg>
+                                    </i>
                                     <span class="text-orange-500 mr-2">تلفن همراه اپل</span>
+                                </div>
+                                <!--  -->
+
+                                <!-- Name -->
+                                <div
+                                    class="mt-6 w-full flex flex-col gap-3 justify-center items-center md:items-start md:jusitfy-start">
+                                    <span class="md:text-xl font-bold text-blue-900">
+                                        گوشی آیفون ۱۳ ۱۲۸ گیگابایت
+                                    </span>
+                                    <span class="text-gray-400 md:text-lg md:text-black">
+                                        Apple Iphone 13 128 GB
+                                    </span>
+                                </div>
+                                <!--  -->
+
+                                <hr class="hidden md:block w-full border-t-2 border-gray-200 my-4">
+
+                                <!-- Select Colors -->
+                                <div class="bg-transparent w-full mt-4 md:w-auto flex gap-4 justify-center items-center"
+                                    aria-label="selectColors">
+                                    <p class="text-blue-900">
+                                        انتخاب رنگ :
+                                    </p>
+                                    <div class=" flex gap-4 justify-center items-center mr-4">
+                                        <button class="bg-yellow-300 w-6 h-6 rounded-full -ml-5"></button>
+                                        <button class="bg-purple-500 w-6 h-6 rounded-full -ml-5"></button>
+                                        <button class="bg-indigo-400 w-6 h-6 rounded-full -ml-5"></button>
+                                        <button class="bg-red-400 w-6 h-6 rounded-full -ml-5"></button>
+                                        <button class="bg-black w-6 h-6 rounded-full -ml-5 ring-4 ring-gray-200">
+                                            <i class="flex justify-center items-center">
+                                                <svg xmlns="http://www.w3.org/2000/svg" fill="none"
+                                                    stroke="currentColor" stroke-width="1.5" class="size-4 stroke-white"
+                                                    viewBox="0 0 24 24">
+                                                    <path stroke-linecap="round" stroke-linejoin="round"
+                                                        d="m4.5 12.75 6 6 9-13.5" />
+                                                </svg>
+                                            </i>
+                                        </button>
+                                    </div>
+
+                                </div>
+                                <!--  -->
+
+                                <!-- Seller Info -->
+                                <div class="flex md:hidden flex-row gap-4 items-center flex-wrap mt-4">
+                                    <ul>
+                                        <li class="flex justify-start items-center p-2">
+                                            <i>
+                                                <svg xmlns="http://www.w3.org/2000/svg" width="21" height="20"
+                                                    fill="none">
+                                                    <circle cx="12.12" cy="8" r="8" fill="#AFAFAF" />
+                                                    <path stroke="#222F5D" stroke-linecap="round"
+                                                        stroke-linejoin="round" stroke-width=".875"
+                                                        d="m1.885 11.454-.046 2.619c-.045 2.619.987 3.687 3.605 3.732l3.144.055c2.619.045 3.687-.987 3.732-3.605l.046-2.62" />
+                                                    <path stroke="#222F5D" stroke-linecap="round"
+                                                        stroke-linejoin="round" stroke-width=".875"
+                                                        d="M7.12 12c1.068.018 1.87-.837 1.783-1.906L8.586 6.19l-2.724-.047-.458 3.889c-.123 1.066.649 1.948 1.716 1.967Z" />
+                                                    <path stroke="#222F5D" stroke-linecap="round"
+                                                        stroke-linejoin="round" stroke-width=".875"
+                                                        d="M10.8 12.063c1.179.02 2.058-.92 1.962-2.095l-.135-1.607c-.184-1.52-.757-2.113-2.285-2.14l-1.78-.03.338 4.095c.083.964.938 1.76 1.9 1.777ZM3.41 11.935c.963.017 1.846-.75 1.956-1.71l.15-1.287.329-2.795-1.779-.03c-1.528-.027-2.121.546-2.358 2.059l-.185 1.601c-.137 1.17.71 2.142 1.888 2.162ZM7.07 14.916c-.974-.017-1.467.459-1.484 1.433l-.025 1.458 2.916.05.026-1.458c.017-.974-.46-1.466-1.433-1.483Z" />
+                                                </svg>
+                                            </i>
+                                            <div class="mr-2 text-blue-900 ">
+                                                <span class="font-bold">فروشنده :</span>
+                                                <span class="mr-2">دیجیتایز</span>
+                                            </div>
+                                        </li>
+                                        <li class="flex justify-start items-center p-2">
+                                            <i>
+                                                <svg xmlns="http://www.w3.org/2000/svg" width="21" height="19"
+                                                    fill="none">
+                                                    <circle cx="13" cy="8" r="8" fill="#AFAFAF" />
+                                                    <path stroke="#222F5D" stroke-linecap="round"
+                                                        stroke-linejoin="round" stroke-width="1.063"
+                                                        d="M7.43 3.58 3.896 4.91c-.815.305-1.48 1.268-1.48 2.132v5.263c0 .836.552 1.934 1.225 2.437l3.046 2.274c.998.75 2.642.75 3.64 0l3.046-2.274c.673-.503 1.226-1.6 1.226-2.437V7.043c0-.87-.666-1.834-1.48-2.139L9.583 3.58c-.602-.22-1.566-.22-2.154 0Z" />
+                                                </svg>
+                                            </i>
+                                            <div class="mr-2 text-blue-900 ">
+                                                <span class="font-bold">گارنتی :</span>
+                                                <span class="mr-1">
+                                                    ۱۸ ماه زرین خدمت
+                                                </span>
+                                            </div>
+                                        </li>
+                                        <li class="flex justify-start items-center p-2">
+                                            <i>
+                                                <svg xmlns="http://www.w3.org/2000/svg" width="24" height="22"
+                                                    fill="none">
+                                                    <path fill="#AFAFAF" d="M16 16a8 8 0 1 0 0-16 8 8 0 0 0 0 16Z" />
+                                                    <path stroke="#222F5D" stroke-linecap="round"
+                                                        stroke-linejoin="round" stroke-width="1.125"
+                                                        d="M11 7v6.667C11 14.4 10.377 15 9.615 15H2v-4.253c.505.58 1.28.94 2.14.92.699-.014 1.328-.274 1.8-.707.214-.173.394-.393.532-.633.25-.407.388-.887.374-1.387A2.617 2.617 0 0 0 5.905 7H11Z" />
+                                                    <path stroke="#222F5D" stroke-linecap="round"
+                                                        stroke-linejoin="round" stroke-width="1.125"
+                                                        d="M16 15.6v2.2c0 1.217-.938 2.2-2.1 2.2h-.7c0-.807-.63-1.467-1.4-1.467-.77 0-1.4.66-1.4 1.467H7.6c0-.807-.63-1.467-1.4-1.467-.77 0-1.4.66-1.4 1.467h-.7C2.938 20 2 19.017 2 17.8v-2.2h7.7c.77 0 1.4-.66 1.4-1.467V9h1.288c.504 0 .966.286 1.218.74l1.197 2.193H13.9c-.385 0-.7.33-.7.734v2.2c0 .403.315.733.7.733H16Z" />
+                                                    <path stroke="#222F5D" stroke-linecap="round"
+                                                        stroke-linejoin="round" stroke-width="1.125"
+                                                        d="M6 21c.552 0 1-.672 1-1.5S6.552 18 6 18s-1 .672-1 1.5.448 1.5 1 1.5ZM9.5 21a1.5 1.5 0 1 0 0-3 1.5 1.5 0 0 0 0 3ZM14 13.8V15h-2.25c-.412 0-.75-.27-.75-.6v-1.8c0-.33.338-.6.75-.6h.967L14 13.8Z" />
+                                                    <path stroke="#222F5D" stroke-linecap="round"
+                                                        stroke-linejoin="round" stroke-miterlimit="10"
+                                                        stroke-width="1.125"
+                                                        d="M7 9c0 .9-.397 1.703-1.02 2.25A3 3 0 0 1 4 12a3 3 0 1 1 0-6 3 3 0 0 1 3 3Z" />
+                                                    <path stroke="#222F5D" stroke-linecap="round"
+                                                        stroke-linejoin="round" stroke-miterlimit="10"
+                                                        stroke-width="1.125" d="M4 8v1.333L3 10" />
+                                                </svg>
+                                            </i>
+                                            <div class="mr-2 text-blue-900 ">
+                                                <span class="font-bold">ارسال توسط :</span>
+                                                <span class="mr-2">
+                                                    انبار تهران
+                                                </span>
+                                            </div>
+                                        </li>
+                                    </ul>
+                                </div>
+                                <!--  -->
+
+                                <!-- Product Feature -->
+                                <div
+                                    class="bg-white w-full p-4 flex flex-col gap-4 mt-8 justify-center items-start rounded-lg shadow-md md:shadow-none md:rounded-none">
+                                    <p class="font-bold text-blue-900">
+                                        ویژگی های کالا :
+                                    </p>
+                                    <ul class="list-disc ">
+                                        <li class="text-orange-500 text-xl mr-4 font-bold">
+                                            <p class="text-blue-900 font-light text-sm">
+                                                حافظه داخلی :
+                                            </p>
+                                            <span class="text-blue-900  text-sm text-center">
+                                                ۱۲۸ گیگابایت
+                                            </span>
+                                        </li>
+                                        <li class="text-orange-500 text-xl mr-4 font-bold">
+                                            <p class="text-blue-900 font-light text-sm">
+                                                بازه‌ی اندازه صفحه نمایش:
+                                            </p>
+                                            <span class="text-blue-900 text-sm text-center">
+                                                6.0 اینچ و بزرگتر
+                                            </span>
+                                        </li>
+                                        <li class="text-orange-500 text-xl mr-4 font-bold">
+                                            <p class="text-blue-900 font-light text-sm">
+                                                شبکه های ارتباطی:
+                                            </p>
+                                            <span class="text-blue-900 text-sm text-center">
+                                                2G، 3G، 4G، 5G
+                                            </span>
+                                        </li>
+                                    </ul>
                                 </div>
                                 <!--  -->
 
@@ -352,7 +525,7 @@
                         <div class="w-full xl:w-1/3 hidden md:block">
                             <div class="flex flex-col justify-center p-4 rounded-lg bg-gray-100">
 
-                                <!-- Seler Info -->
+                                <!-- Seller Info -->
                                 <div class="mb-16">
                                     <ul>
                                         <li class="flex justify-start items-center p-2">
@@ -450,9 +623,143 @@
                     </div>
                     <!--  -->
 
-                    <!-- review Section-->
-                    <div></div>
+                    <!-- Desktop review Section-->
+                    <div class="w-full hidden md:flex flex-col p-4 gap-4 mt-8 text-blue-900">
+
+                        <!-- title -->
+                        <h3 class=" font-bold text-xl mx-4 mb-4">
+                            نقد و بررسی این محصول
+                        </h3>
+                        <!--  -->
+
+                        <!-- content -->
+                        <div class="mx-4">
+                            <p class="text-justify text-lg">
+                                آیفون ۱۳ از سری پرچمداران ۲۰۲۱ اپل با قابلیت های فراوان است که در تاریخ ۱۴ سپتامبر به
+                                صورت رسمی رونمایی شد و پس از گذشت مدتی در تاریخ ۲۴ سپتامبر به بازارهای جهانی راه یافت و
+                                توانست بسیاری از طرفداران برند اپل را به خرید متقاعد سازد. طراحی iPhone 13 Pro مشابه سری
+                                پیشین با تغییراتی جزئی است که در رنگ های زیبای آبی، مشکی گرافیت، طلایی و نقره ای عرضه
+                                شده است؛ بدنه ابعادی معادل ۱۴۶.۷x۷۱.۵x۷.۷ میلی متر دارد و وزن آن حدود ۲۰۰ گرم است که
+                                نشان از طراحی هوشمندانه و استفاده مناسب از متریال دارد و سبب شده تا این گوشی جزو خوش دست
+                                ترین مدل های تولید شده در سال ۲۰۲۱ قرار گیرد. این گوشی پرچمدار دارای یک نمایشگر بسیار با
+                                کیفیت از نوع OLED است و کیفیت بسیار بالایی را هنگام نمایش محتواهای مختلف ارائه می دهد و
+                                تصاویر را نزدیک به واقعیت نمایش می دهد که قابلیت بسیار حائز اهمیت و رضایت بخشی برای
+                                کاربران محسوب می شود.
+                            </p>
+                        </div>
+                        <!--  -->
+
+                    </div>
                     <!--  -->
+
+                    <!-- Desktop Design -->
+                    <div class="w-full hidden md:flex flex-col p-4 gap-4 mt-8 text-blue-900">
+
+                        <!-- title -->
+                        <h3 class=" font-bold text-xl mx-4 mb-4">
+                            طراحی
+                        </h3>
+                        <!--  -->
+
+                        <!-- content -->
+                        <div class="mx-4">
+                            <p class="text-justify text-lg">
+                                کمپانی اپل پس از معرفی سری آیفون ۱۲ بار دیگر طراحی گوشی های خود، با فریم های پهن و زاویه
+                                دار را مورد استفاده قرار داد. آیفون ۱۳ پرو نیز به پیروی از نسل پیشین خود با یک طراحی
+                                بسیار جذاب رونمایی و عرضه شد. پنل پشتی و نمایشگر این گوشی مانند تمامی گوشی های بالارده
+                                با استفاده از شیشه ساخته شده که با یک لایه محافظ پوشیده شده است؛ در قسمت پشتی شاهد یک
+                                ماژول مربعی شکل هستیم که دوربین اصلی را تشکیل می دهد و به علت طراحی خاصی که دارد این مدل
+                                را نسبت به همرده های خود در بین محصولات سایر کمپانی ها متفاوت ساخته است همچنین فریم
+                                آلومینیومی در نظر گرفته شده برای آن نیز درخشش خاصی را ایجاد کرده که بی نظیر است. رنگ های
+                                بسیار خاص در نظر گرفته شده برای iPhone 13 Pro در کنار طراحی منحصر به فرد یک پرچمدار بی
+                                همتا را به دنیای تکنولوژی عرضه کرده که نگاه هر بیننده ای را متوجه خود می سازد.
+                            </p>
+                            <div class="w-1/2 mx-auto max-w-[300px]">
+                                <img class="w-full h-full" src="../assets/images/Single Product/design.png" alt="">
+                            </div>
+                        </div>
+                        <!--  -->
+
+                    </div>
+                    <!--  -->
+
+                    <!-- Desktop Camera -->
+                    <div class="w-full hidden md:flex flex-col p-4 gap-4 mt-8 text-blue-900">
+
+                        <!-- title -->
+                        <h3 class=" font-bold text-xl mx-4 mb-4">
+                            دوربین
+                        </h3>
+                        <!--  -->
+
+                        <!-- content -->
+                        <div class="mx-4">
+                            <p class="text-justify text-lg">
+                                کیفیت بسیار بالای دوربین در گوشی های آیفون همواره در بین کاربران علاقه مند به دنیای
+                                تکنولوژی زبانزد بوده است. iPhone 13 Pro نیز با دوربین اصلی چهارگانه خود و بهره مندی از
+                                قابلیت سینماتیک توانسته است بسیار محبوب واقع شود. دوربین اصلی در نظر گرفته شده برای این
+                                مدل به ترتیب از یک لنز عریض ۱۲ مگاپیکسلی با دریچه دیافراگم f/1.5، لنز تله فوتو ۱۲
+                                مگاپیکسلی با دریچه دیافراگم f/2.8، لنز ۱۲ مگاپیکسلی فوق عریض با دریچه دیافراگم f/1.8 و
+                                یک سنسور TOF 3D LiDAR تشکیل شده است که قابلیت های ویژه ای را به آیفون ۱۳ پرو بخشیده اند.
+                                در قسمت جلو نیز درون ناچ تعبیه شده در بالای نمایشگر یک لنز ۱۲ مگاپیکسلی عریض و یک سنسور
+                                عمق و تشخیص چهره از نوع SL 3D تعبیه شده که امکانات منحصر به فردی را در هنگام عکس برداری
+                                و فیلم برداری در اختیار کاربر قرار می دهد.
+                            </p>
+                        </div>
+                        <!--  -->
+
+                    </div>
+                    <!--  -->
+
+                    <!-- Desktop Battrey -->
+                    <div class="w-full hidden md:flex flex-col p-4 gap-4 mt-8 text-blue-900 mb-8">
+
+                        <!-- title -->
+                        <h3 class=" font-bold text-xl mx-4 mb-4">
+                            باتری
+                        </h3>
+                        <!--  -->
+
+                        <!-- content -->
+                        <div class="mx-4">
+                            <p class="text-justify text-lg">
+                                در بین هواداران گوشی های آیفون همیشه دغدغه باتری و ظرفیت پایین آن وجود داشته است. آیفون
+                                ۱۳ پرو با باتری قدرتمند 3095 میلی آمپری توانسته است دغدغه های کاربران را به خوبی رفع
+                                کند. این گوشی دارای قابلیت شارژ سریع ۲۳ وات است که این اطمینان را به کاربر می دهد که
+                                انرژی دستگاه را در کوتاه ترین زمان ممکن مجددا بازیابی خواهد شد. البته قابلیت شارژ بی سیم
+                                ۱۵ وات با استفاده از مگ سیف نیز از دیگر ویژگی های iPhone 13 Pro محسوب می شوند.
+                            </p>
+                        </div>
+                        <!--  -->
+
+                    </div>
+                    <!--  -->
+
+                    <!-- Mobile review Section -->
+                    <div class="w-full flex md:hidden flex-col p-4 gap-4 text-blue-900 bg-white mb-80 rounded-md shadow-md">
+                        <div id="reviewContent" class="overflow-hidden max-h-24 transition-all duration-300 text-justify">
+                            <p>
+                                آیفون ۱۳ از سری پرچمداران ۲۰۲۱ اپل با قابلیت های فراوان است که در تاریخ ۱۴ سپتامبر به
+                                صورت رسمی رونمایی شد و پس از گذشت مدتی در تاریخ ۲۴ سپتامبر به بازارهای جهانی راه یافت و
+                                توانست بسیاری از طرفداران برند اپل را به خرید متقاعد سازد. طراحی iPhone 13 Pro مشابه سری
+                                پیشین با تغییراتی جزئی است که در رنگ های زیبای آبی، مشکی گرافیت، طلایی و نقره ای عرضه
+                                شده است؛ بدنه ابعادی معادل ۱۴۶.۷x۷۱.۵x۷.۷ میلی متر دارد و وزن آن حدود ۲۰۰ گرم است که
+                                نشان از طراحی هوشمندانه و استفاده مناسب از متریال دارد و سبب شده تا این گوشی جزو خوش دست
+                                ترین مدل های تولید شده در سال ۲۰۲۱ قرار گیرد. این گوشی پرچمدار دارای یک نمایشگر بسیار با
+                                کیفیت از نوع OLED است و کیفیت بسیار بالایی را هنگام نمایش محتواهای مختلف ارائه می دهد و
+                                تصاویر را نزدیک به واقعیت نمایش می دهد که قابلیت بسیار حائز اهمیت و رضایت بخشی برای
+                                کاربران محسوب می شود.
+                            </p>
+                        </div>
+                        <button id="toggleButton" class="text-left text-orange-500 mt-2">
+                            ادامه مطلب
+                        </button>
+                    </div>
+                    <!--  -->
+
+                    <!-- Mobile Other review Information -->
+                    <!--  -->
+
                 </div>
             </section>
             <!--  -->
@@ -541,6 +848,7 @@
     </footer>
     <!--  -->
 
+    <script type="module" src="../src/js/productInfo.js"></script>
 </body>
 
 </html>
